@@ -6,7 +6,7 @@ We were given two datasets:
   2. Test dataset which constains 10 000 elements
 ## Methods
 ### 3_Task
-Main library which I used is called : SciKit.
+Main library which I used is called : SciKit. <br />
 Beside that, I use: datatime, Firebase etc.
 
 To download data, I used Firebase Storage in which I uploded data at the begining of the process.
@@ -19,7 +19,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matr
 
 
 ### 4_Task
-Main library which I used is called : TensorFlow and Keras
+Main library which I used is called : TensorFlow and Keras. <br />
 Beside that, I use: numpy, ssl etc.
 
 ##### recources:
