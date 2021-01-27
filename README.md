@@ -34,7 +34,7 @@ https://intellij-support.jetbrains.com/hc/en-us/community/posts/360000117730-SSL
 | Main              | First Result  | Second Result | Thirs Result |
 | ------------------| ------------- | ------------- | ------------ |
 | Neighbour number  | 1             | 5             | 9            |
-| Accuracy          | 0.846         |               |              |
+| Accuracy          | 0.846         | 0.854         | 0.851        |
 
 | Benchmark         | First Result  | Second Result | Third Result |
 | ------------------| ------------- | ------------- | ------------ |
