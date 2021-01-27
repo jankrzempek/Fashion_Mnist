@@ -1,5 +1,7 @@
 # Podstawy Nauki o Danych - Lista 4 :computer:
 ## Introduction
+### ex3 - Task_3
+### main - Task_4
 We were given a dataset, which constains "Fasion_MNIST" data. Those are the images of cloths collected by company named - "Zalando". Our main goal is to build a model which can classifies those images well.
 We were given two datasets:
   1. Training dataset which contain 60 000 elemnts
