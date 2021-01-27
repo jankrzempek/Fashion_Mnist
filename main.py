@@ -64,7 +64,7 @@ testImages = testImages / 255.0
 model = tf.keras.models.Sequential()
 # converting images from two-dimensional array to one dimensional array 784 pixels
 model.add(tf.keras.layers.Flatten(input_shape=(28, 28)))
-# first layer called: Dense has 256 nodes
+# first layer called: Dense has 256 nodes and is now double layered
 model.add(tf.keras.layers.Dense(256, activation='relu'))
 # second layer contains 10 logits(inputs for softmax function)
 model.add(tf.keras.layers.Dense(10))
@@ -72,6 +72,7 @@ model.add(tf.keras.layers.Dense(10))
 
 # model complication
 # SGD stand for Stochastic Gradient which we use here
+# loss - measure accuracy of model during training
 model.compile(optimizer='SGD',
               loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
               metrics=['accuracy'])
@@ -87,6 +88,7 @@ print("------------------------EXPECTED OUTPUT---------------------")
 print('Test accuracy output: ', accuracyOfTheTest)
 
 #Data forecasting
+# Softmax converts logits into probability
 modelOfProbability = tf.keras.Sequential([model, tf.keras.layers.Softmax()])
 predictions = modelOfProbability.predict(testImages)
 
