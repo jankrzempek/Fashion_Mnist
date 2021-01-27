@@ -23,6 +23,10 @@ https://www.youtube.com/watch?v=I1eskLk0exg
 Main library which I used is called : TensorFlow and Keras. <br />
 Beside that, I use: numpy, ssl etc.
 
+To download data, I use built-in Tensor-Flow module which allows me to download data in easy way.
+I built a model which train itself using training data. After that is evaluates itself uisng testing data.
+After every stage, You are able to see time output which shows how long it took to process.
+
 ##### recources:
 https://www.tensorflow.org/guide/keras/sequential_model <br />
 https://keras.io/guides/sequential_model/ <br />
@@ -42,10 +46,10 @@ https://intellij-support.jetbrains.com/hc/en-us/community/posts/360000117730-SSL
 | Accuracy          | 0.847         | 0.860         | 0.856        |
 
 ### 4_Task
-| Main              | First Result  | Second Result | Third Result |
-| ------------------| ------------- | ------------- | ------------ |
-| Echos             | 5             | 15            | 50           |
-| Accuracy          | 0.846         | 0.851         | 0.883        |
+| Main              | First Result  | Second Result | Third Result | Fourth Result |
+| ------------------| ------------- | ------------- | ------------ | ------------- |
+| Echos             | 5             | 15            | 50           | 150           |
+| Accuracy          | 0.846         | 0.851         | 0.883        | 0.890         |
 
 ## Usage
 In the Taks_3 and Task_4 the Fasion_Mnist data downloads automaticly. In the Task_3 it uses Firebse to fetch the data from the web, what takes about 30 sec. In the Taks_4 data is downloads automaticly using TensorFlow buil-in method.
