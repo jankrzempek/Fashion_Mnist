@@ -32,9 +32,11 @@ Library which I used is called : TensorFlow
 | Accuracy          | 0.846         | 0.851         | 0.883        |
 
 ## Usage
-### 3_Task
+In the Taks_3 and Task_4 the Fasion_Mnist data downloads automaticly. In the Task_3 it uses Firebse to fetch the data from the web, what takes about 30 sec. In the Taks_4 data is downloaded automaticly using TensorFlow buil-in method.
+To run everything, first You need to install nedded libraries using "requirements.txt" file.
+After the installation, You can run Taks_3 or Taks_4 and wait for the results.
 
-### 4_Task
+(Unfortunetly, now it is not possible to download the ML model.)
 
 
 
