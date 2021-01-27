@@ -5,31 +5,36 @@ We were given two datasets:
   1. Training dataset which contain 60 000 elemnts
   2. Test dataset which constains 10 000 elements
 ## Methods
-### 3 Task
+### 3_Task
 Library which I used is called : SciKit
 I built a model which train itself using training data. After that is evaluates itself uisng testing data.
 
 
-### 4 Task
+### 4_Task
 Library which I used is called : TensorFlow
 
 ## Results
-### 3 Task
-| Main              | First Result  | Second Result |
-| ------------------| ------------- | ------------- |
-| Neighbour number  | 1             | 3             |
-| Accuracy          | 0.846         |               |
+### 3_Task
+| Main              | First Result  | Second Result | Thirs Result |
+| ------------------| ------------- | ------------- | ------------ |
+| Neighbour number  | 1             | 5             | 9            |
+| Accuracy          | 0.846         |               |              |
 
-### 4 Task
+| Benchmark         | First Result  | Second Result | Third Result |
+| ------------------| ------------- | ------------- | ------------ |
+| Neighbour number  | 1             | 5             | 9            |
+| Accuracy          | 0.847         | 0.860         | 0.856        |
+
+### 4_Task
 | Main              | First Result  | Second Result | Third Result |
 | ------------------| ------------- | ------------- | ------------ |
-| Echos             | 5             | 15            | x            |
-| Accuracy          | 0.846         |               | x            |
+| Echos             | 5             | 15            | 50           |
+| Accuracy          | 0.846         | 0.851         | 0.883        |
 
 ## Usage
-### 3 Task
+### 3_Task
 
-### 4 Task
+### 4_Task
 
 
 
