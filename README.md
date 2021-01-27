@@ -6,7 +6,7 @@ We were given two datasets:
   2. Test dataset which constains 10 000 elements
 ## Methods
 ### 3_Task
-Main library which I used is called : SciKit
+Main library which I used is called : SciKit.
 Beside that, I use: datatime, Firebase etc.
 
 To download data, I used Firebase Storage in which I uploded data at the begining of the process.
@@ -15,6 +15,7 @@ After every stage, You are able to see time output which shows how long it took 
 
 ##### recources:
 https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html
 
 
 ### 4_Task
