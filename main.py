@@ -10,7 +10,7 @@ logging.getLogger('tensorflow').disabled = True
 
 # WHAT LOGIT MEANS?
 # Tensorflow "with logit": It means that you are applying a softmax function to logit numbers to normalize it.
-# The input_vector/logit is not normalized and can scale from [-inf, inf].
+# The vector of raw (non-normalized) predictions that a classification model generates.
 
 # TensorFlow needs to be in 1.14 version
 # When TensorFlow is deprecated numpy must be at v.1.16
