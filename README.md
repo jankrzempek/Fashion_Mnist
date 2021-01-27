@@ -14,8 +14,9 @@ I built a model which train itself using training data. After that is evaluates 
 After every stage, You are able to see time output which shows how long it took to process.
 
 ##### recources:
-https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html
-https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html
+https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html <br />
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html <br />
+https://www.youtube.com/watch?v=I1eskLk0exg
 
 
 ### 4_Task
@@ -23,6 +24,10 @@ Main library which I used is called : TensorFlow and Keras. <br />
 Beside that, I use: numpy, ssl etc.
 
 ##### recources:
+https://www.tensorflow.org/guide/keras/sequential_model <br />
+https://keras.io/guides/sequential_model/ <br />
+https://stackoverflow.com/questions/37891954/keras-how-do-i-predict-after-i-trained-a-model <br />
+https://intellij-support.jetbrains.com/hc/en-us/community/posts/360000117730-SSL-error-in-accessing-MNIST-dataset
 
 ## Results
 ### 3_Task
