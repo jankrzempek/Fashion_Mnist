@@ -1,13 +1,10 @@
-# Podstawy Nauki o Danych - Lista 4 :computer:
+# Podstawy Nauki o Danych :computer:
 ## Introduction
-### ex3 - Task_3
-### main - Task_4
 We were given a dataset, which constains "Fasion_MNIST" data. Those are the images of cloths collected by company named - "Zalando". Our main goal is to build a model which can classifies those images well.
 We were given two datasets:
   1. Training dataset which contain 60 000 elemnts
   2. Test dataset which constains 10 000 elements
 ## Methods
-### 3_Task
 Main library which I used is called : SciKit. <br />
 Beside that, I use: datatime, Firebase etc.
 
@@ -20,8 +17,6 @@ https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeigh
 https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html <br />
 https://www.youtube.com/watch?v=I1eskLk0exg
 
-
-### 4_Task
 Main library which I used is called : TensorFlow and Keras. <br />
 Beside that, I use: numpy, ssl etc.
 
